@@ -50,7 +50,7 @@ Result shows as below:
 ## Statement
 This project is for BME1102:
 ```
-@software{wang2022follow,
+@software{kong2022enhanced,
   title={Enhanced propensity score matching for Python},
   author={Yan Kong, Yuan yin, Yiqing Zhang and Ziwei Ma},
   class={BME1102:Python programming},
