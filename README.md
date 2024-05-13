@@ -46,3 +46,14 @@ Data can be download at [here](https://hbiostat.org/data/).
 Result shows as below:
 ![Intro](./image/smds.png)
 ![Intro](./image/failed_pvalue.png)
+
+## Statement
+This project is for BME1102:
+```
+@software{wang2022follow,
+  title={Enhanced propensity score matching for Python},
+  author={Yan Kong, Yuan yin, Yiqing Zhang and Ziwei Ma},
+  class={BME1102:Python programming},
+  year={2022}
+}
+```
