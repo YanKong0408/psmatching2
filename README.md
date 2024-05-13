@@ -33,8 +33,7 @@ m.match(caliper=None, replace=False, k=1)
 m.weighted_process(self,method=None)
 # Calculate the p value on the basis of the statistic.
 m.evaluate_p_value(self, df,if_show=True)
-# Evaluate the mean, variance, SMD of coveriates and the results of dependent
-variables
+# Evaluate the mean, variance, SMD of coveriates and the results of dependent variables
 m.evaluate_dependent(df)
 # show the matching effect of each method
 m.plot_matching_efficiency(if_weighed=True)
