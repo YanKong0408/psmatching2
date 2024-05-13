@@ -38,3 +38,9 @@ m.evaluate_dependent(df)
 # show the matching effect of each method
 m.plot_matching_efficiency(if_weighed=True)
 ```
+
+## Example
+Below is an example showcasing the application of our method to evaluate the effectiveness of right heart catheterization procedure.
+Code is in '[test_file.py]()'.
+Data can be download at [here](https://hbiostat.org/data/).
+Result shows as below:
