@@ -44,5 +44,5 @@ Below is an example showcasing the application of our method to evaluate the eff
 Code is in '[test_file.py](https://github.com/YanKong0408/psmatching2/blob/main/test_file.py)'.
 Data can be download at [here](https://hbiostat.org/data/).
 Result shows as below:
-![Intro](./image/smd.png)
+![Intro](./image/smds.png)
 ![Intro](./image/failed_pvalue.png)
