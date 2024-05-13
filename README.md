@@ -17,24 +17,25 @@ The following functionality is included in the package:
 git clone https://github.com/YanKong0408/psmatching2.git
 cd psmatching2
 
-# Install Pytorch and torchvision
-# We test our models under 'python=3.7.3,pytorch=1.9.0,cuda=11.1'. Other versions might be available as well.
-conda install -c pytorch pytorch torchvision
-
 # Install other needed packages
 pip install -r requirements.txt
 ```
 
 ## Main Functions
 ```sh
-# Clone this repo
-git clone https://github.com/YanKong0408/psmatching2.git
-cd psmatching2
-
-# Install Pytorch and torchvision
-# We test our models under 'python=3.7.3,pytorch=1.9.0,cuda=11.1'. Other versions might be available as well.
-conda install -c pytorch pytorch torchvision
-
-# Install other needed packages
-pip install -r requirements.txt
+#Instantiate PSMatch object
+m=PSMatch(path,control, covariants, dependents=None)
+# Calculation of propensity scores based on a specified model
+m.calculate_proprnsity_scores()
+# Matching of k controls to each treatment case with four different methods.
+m.match(caliper=None, replace=False, k=1)
+# Performs weight process.
+m.weighted_process(self,method=None)
+# Calculate the p value on the basis of the statistic.
+m.evaluate_p_value(self, df,if_show=True)
+# Evaluate the mean, variance, SMD of coveriates and the results of dependent
+variables
+m.evaluate_dependent(df)
+# show the matching effect of each method
+m.plot_matching_efficiency(if_weighed=True)
 ```
